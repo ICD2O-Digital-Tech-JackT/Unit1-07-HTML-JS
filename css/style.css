@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h2 {
+  font-size: 24px;
+  padding:10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color:rgb(205, 220, 57);
+}
+table {
+   background-color:rgb(240, 240, 240);
+}
+th {
+  background-color:rgb(214, 214, 214);
+  border: 1px solid black;
+  border-radius: 10px;
+}
