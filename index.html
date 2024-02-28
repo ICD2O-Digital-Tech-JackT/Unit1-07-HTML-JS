@@ -26,20 +26,27 @@
   </br>
   </br>
 
+  <script>
+    function myButtonClicked() {
+      alert("Hello, World!")
+    }
+  </script>
+  <!-- Table -->
   <table>
     <tr>
-      <th> This is my Button </th>
+      <th>Click this button to open a list:</th>
       <td> <!-- Colored FAB button with ripple -->
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <button onclick="myButtonClicked()" 
+        class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
         <i class="material-icons">add</i>
       </button> 
-  </td>
-    
+      </td>
     </tr>
-    
   </table>
-  
-  <script src="script.js"></script>
+  <!-- Line break -->
+  </br>
+  <!-- Link -->
+  <a href = "more_js.html">Link to more_js page</a>
 </body>
 
 </html>

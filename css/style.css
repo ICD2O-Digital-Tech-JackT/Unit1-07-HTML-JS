@@ -8,11 +8,18 @@ h2 {
   font-family: "Lucida Console", "Courier New", monospace;
   background-color:rgb(205, 220, 57);
 }
-table {
-   background-color:rgb(240, 240, 240);
-}
 th {
-  background-color:rgb(214, 214, 214);
+  background-color:rgb(205, 220, 57);
+  width: 200px;
+  border-radius: 20px;
+}
+td {
+  offset: 10px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 50px;
+  
+}
+a {
+  text-underline-offset: 5px;
+  color: black;
 }
