@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./Favicon2/">
+  <link rel="icon" type="image/png" sizes="32x32" href="./Favicon2/">
+  <link rel="icon" type="image/png" sizes="16x16" href="./Favicon2/favicon-16x16.png">
+  <link rel="manifest" href="./Favicon2/">
 
   <!-- MDL -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -21,14 +21,31 @@
 </head>
 
 <body>
-
+  <!-- Scripts -->
+  <script>
+    function myButtonClicked() {
+      alert("Button 1 was clicked! ")
+    }
+  </script>
+  <script>
+    function myButtonClicked2() {
+      alert("Style is still important!")
+    }
+  </script>
+  <!-- link -->
   <a href = "index.html">First Webpage</a>
 </br>
   <!-- Raised button with ripple -->
-  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+    onclick="myButtonClicked()">
     Button
   </button>
-
+  <!-- Button 2 -->
+  <button class="mdl-button mdl-js-button mdl-js-ripple-effect"
+    onclick="myButtonClicked2()">
+    Button
+  </button>
+  <p>This is a paragraph!</p>
 </body>
 
 </html>
